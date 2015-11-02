@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ android:background="@drawable/bg"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank you Order again"
+        android:textSize="40sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="italic|bold"/>
+
+    <Button
+        android:id="@+id/thankq_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="40dp"
+        android:text="Go Back To FoodItems"
+        android:textSize="25sp" />
+
+</LinearLayout>

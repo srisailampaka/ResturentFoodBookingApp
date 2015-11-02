@@ -1,0 +1,33 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.onlinefoodbookingapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.onlinefoodbookingapp.SplashActivity">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.onlinefoodbookingapp.LoginActivity"></activity>
+        <activity android:name="com.onlinefoodbookingapp.MainActvity"></activity>
+        <activity android:name="com.onlinefoodbookingapp.RegisterActivity"></activity>
+        <activity android:name="com.onlinefoodbookingapp.CartActivity"></activity>
+        <activity android:name="com.onlinefoodbookingapp.CategoriesActivity"></activity>
+        <activity android:name="com.onlinefoodbookingapp.FoodDetailsActivity"></activity>
+        <activity android:name="com.onlinefoodbookingapp.FoodListActivity"></activity>
+        <activity android:name="com.onlinefoodbookingapp.PaymentActivity"></activity>
+        <activity android:name="com.onlinefoodbookingapp.ThankyouActivity"></activity>
+        
+    </application>
+
+</manifest>
